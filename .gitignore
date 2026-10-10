@@ -1,0 +1,26 @@
+# 虚拟环境与依赖
+venv/
+.venv/
+env/
+
+# 模型权重（首次运行自动下载，不纳入版本库）
+models/
+
+# 输出成品
+output/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# PyInstaller 打包产物
+build/
+dist/
+*.spec
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
